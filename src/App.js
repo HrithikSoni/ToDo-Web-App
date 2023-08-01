@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import NoToDo from "./NoToDo";
-import CheckAndRemainingComponent from "./CheckAndRemainingComponent";
-import FilterButtonAndClearComponent from "./FilterButtonAndClearComponent";
+import NoToDo from "./components/NoToDo";
+import CheckAndRemainingComponent from "./components/CheckAndRemainingComponent";
+import FilterButtonAndClearComponent from "./components/FilterButtonAndClearComponent";
 
 function App() {
   const [toDoItem, setToDoItem] = useState([
